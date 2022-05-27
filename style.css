@@ -1,0 +1,434 @@
+* {
+    font-family: poppins;
+    font-weight: 400;
+    scroll-behavior: smooth;
+}
+
+
+
+body {
+    background-image: linear-gradient(180deg, #a66488 , #d49dfc);
+    background-size: 100% 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.contenaier {
+    padding: 0rem 19rem 0rem 27rem;
+
+}
+
+.cabecalho {
+    background-color: #e3fcf9;
+    display: flex;
+}
+
+.seta {
+    font-size: 4rem;
+    margin-left: 0rem;
+    display: flex;
+    font-weight: bold;
+    color: rgb(198 132 169);
+    margin-left: 1rem;
+    
+}
+
+
+.name {
+    font-weight: 800;
+    font-size: 7rem;
+    color: rgb(0, 0, 0);
+    justify-content: space-around;
+    line-height: 0.6rem;
+    text-transform: uppercase;
+    margin-left: 2rem;
+}
+
+.sobrenome {
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+}
+
+.imagem {
+    width: 17rem;
+    border-radius: 130px;
+    margin-top: 5rem;
+    cursor: pointer;
+    margin-left: 1rem;
+    margin-bottom: 5rem;
+
+}
+
+.imagem:hover{
+    opacity: 50%;
+}
+
+.imagem:hover{
+    opacity: 80%;
+}
+
+.head-1 {
+    display: flex;
+    margin: 0rem 1rem 0rem 3rem;
+    
+}
+
+.nomes {
+    margin-top: 10rem;
+
+}
+
+.linha {
+    background-color: black;
+    width: 20%;
+    height: 2px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.container-linha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.icons {
+  display: flex;
+  width: 3rem;
+  height: 3rem;
+  
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.imagens {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.imagens img{
+    padding: 1rem;
+}   
+
+.imagens img:hover {
+    opacity: 30%;
+}
+
+
+.imagem2{
+    border-radius: 130px;
+    cursor: pointer;
+    margin-left: 1rem;
+    background-color:  rgb(227 168 198);
+    width: 230px;
+    height: 320px;
+    margin-top: 5rem;
+}
+
+.imagem2:hover {
+    background-color: rgb(91, 47, 148);
+    transition: 0.3s;
+}
+
+.meme1 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3rem;
+    min-height: auto;
+}
+
+.sobre-mim {
+    display: flex;
+    font-size: 1.7rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+
+.subtitulos {
+    font-weight: bold;
+    font-size: 2rem;
+    
+}
+
+.imagem3{
+    border-radius: 162px;
+    width: 18rem;
+    height: 18rem;
+    margin-right: 3rem;
+    object-fit: cover;
+}
+
+.hab {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+.hab li {
+    font-size: 1.5rem;
+}
+
+.tabela {
+    column-count: 1;
+    column-gap: 9px;
+    text-align: left;
+}
+
+.skills {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: end;
+    margin-top: 5rem;
+    color: white;
+    background-color: rgb(122 93 165);
+    padding: 6rem 0rem 4rem 1rem;
+    border: 1rem solid rgb(232 241 240);
+    border-radius: 18px
+}
+
+.projeto {
+    margin-top: 6rem;
+    text-align:center;
+}
+
+.paginas-projeto {
+    margin-top: 3rem;
+    display: flex;
+}
+
+.projetos {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.meme2 {
+    display: flex;
+    margin-bottom: 3rem;
+}
+.estilo-subtext-topo {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 3s steps(26) infinite, blink 400ms steps(26) infinite;
+    border-right: 10px solid white;
+  }
+  
+  .rodape {
+    display: flex;
+    font-size: 1rem;
+    margin-right: 1rem;
+    margin-left: 0.5rem;
+    margin-top: 1.7rem;
+  }
+
+  .imagens-icons {
+    opacity: 60%;
+    width: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .container {
+    display: flex;
+    background-color: #f0f0f0;
+    justify-content: space-around;
+    padding: 0 2rem;
+}
+
+.rodape-fix {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.i-am {
+    width: 55rem;
+    background-color: #e8f1f0;
+    text-align: start;
+    padding: 1rem;
+    border: solid rgb(122 93 165) 2rem;
+    border-radius: 18px;
+}
+
+.i-am::before {
+    position: fixed;
+    content: "Sobre Mim";
+    width: 20rem;
+    font-size: 1.2rem;
+    position: relative;
+    border: solid rgb(122 93 165) 0.5rem;
+    border-radius: 1rem 1rem 0  0;
+    left: -3rem;
+    bottom: 6rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.sou-eu {
+    font-size: 1.3rem;
+    margin-left: 1.8rem;
+}
+
+.projetos__card {
+    display: flex;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.projetos__card:hover {
+    -webkit-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+
+.fotos_projetos {
+    margin-right: 1rem;
+    width: 50%;
+    margin-bottom: 5rem;
+    font-weight: 700;
+}
+
+.fotos_projetos2 {
+    width: 50%;
+}
+
+.projeto_buser {
+    margin-top: 6rem;
+    text-align:center;
+    font-weight: bold;
+    font-size: 3rem;
+    
+}
+
+@media (max-width: 500px){
+ .contenaier {
+     padding: 0rem;
+    }
+
+    .seta{
+    font-size: 2rem;
+    color: rgb(198 132 169);
+    margin-left: 1rem;
+    }
+
+    .imagens img {
+        padding: 0.4rem;
+        width: 2.5rem
+    }
+
+    .head-1 {
+        display: flex;
+        flex-direction: column;
+        margin: 0rem;
+        align-items: center;
+    }
+
+    .skills {
+       flex-direction: column;
+    }
+    
+    .name {
+        font-size: 4rem;
+        margin: 0;
+    }
+
+    .sobrenome {
+        font-size: 1.3rem;
+    }
+
+    .imagem {
+        width: 14rem;
+        border-radius: 130px;
+        margin-top: 5rem;
+        margin-bottom: 0;
+        margin-left: 0rem;
+       
+    }
+
+    .meme1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .sou-eu{
+      font-size: 0.7rem;
+    }
+
+    .arquivo{
+        min-width: 100vw;
+        display: flex;
+        align-items: center;  
+        justify-content: center;
+    
+    }
+
+    .i-am {
+        width: 22rem;
+        border: solid rgb(122 93 165) 1rem;
+        padding: 0.7rem;
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .i-am::before {
+        border: solid rgb(122 93 165) 0.2rem;
+        left: 1.3rem;
+        bottom: 5.4rem;
+        width: 8rem;
+        height: 4rem;
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    .container-linha {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    .imagem2 {
+        display: none;
+    }
+
+    .sobre-mim {
+        font-size: 1.3rem;
+        left: 1rem;
+    }
+
+    .imagem3 {
+        width: 9rem;
+        height: 9rem;
+    }
+
+    .subtitulos {
+        font-size: 1.4rem;
+    }
+}
